@@ -1,0 +1,77 @@
+.row {
+    margin-bottom: 50px;
+}
+.image-side{
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+}
+.image-side img:first-child{
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin-top: 50px;
+}
+.image-side img{
+    width: 49%;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.image-side img:hover{
+    opacity: 0.4;
+    transition: all 1s;
+}
+.image-side img:last-child {
+    float: right;
+}
+.admin-discr {
+    padding: 30px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 139, 0.521);
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    float: right;
+    height: auto;
+}
+.admin-discr img {
+    width: 35px;
+    height: 35px;
+}
+.admin-discr b{
+    font-size: 15px;
+    margin-left: 8px;
+}
+.admin-discr p{
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.admin-discr span {
+    padding-top: 100%;
+    font-size: 13px;
+    color: rgb(171, 171, 171);
+}
+
+#fullpage {
+    display: none;
+    position: absolute;
+    z-index: 9999999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-color: black;
+  }
+  #fullpage button {
+      margin-top: 20px;
+      border: none;
+  }
+  #fullpage button:hover{
+      background-color: red;
+  }
